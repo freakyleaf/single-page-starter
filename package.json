@@ -1,0 +1,33 @@
+{
+	"name": "survey-landing-page",
+	"description": "Single page website for Countrywide",
+	"version": "1.0.0",
+	"devDependencies": {
+		"browser-sync": "2.12.x",
+		"del": "2.2.x",
+		"gulp": "^3.9.x",
+		"gulp-autoprefixer": "3.1.x",
+		"gulp-contrib-copy": "0.1.x",
+		"gulp-cssnano": "2.1.x",
+		"gulp-livereload": "3.8.x",
+		"gulp-modernizr": "1.0.0-alpha",
+		"gulp-mustache": "2.2.x",
+		"gulp-plumber": "1.1.x",
+		"gulp-rename": "1.2.x",
+		"gulp-sass": "2.3.x",
+		"gulp-sourcemaps": "1.6.x",
+		"gulp-uglify": "1.5.x",
+		"gulp-util": "3.0.x",
+		"gulp-watch": "4.3.x",
+		"merge-stream": "1.0.0"
+	},
+	"author": "Gareth James",
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.1"
+	},
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}

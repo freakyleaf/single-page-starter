@@ -1,0 +1,34 @@
+{
+	"src": {
+		"img": "./src/img/**/*",
+		"js": "./src/js/**/*.js",
+		"json": "./src/mustache/index.json",
+		"mustache": "./src/mustache/index.mustache",
+		"scss": "./src/scss/style.scss"
+	},
+	"dest": {
+		"css": "./build/css/",
+		"html": "./build/",
+		"img": "./build/img/",
+		"js": "./build/js/"
+	},
+	"watch": {
+		"css": "./src/**/*.scss",
+		"js": "./src/**/*.js",
+		"json": "./src/**/*.json",
+		"mustache": "./src/**/*.mustache"
+	},
+	"settings": {
+		"modernizr": {
+			"options": [
+				"setClasses",
+				"addTest",
+				"html5printshiv",
+				"testProp",
+				"fnBind"
+			],
+			"tests": [],
+			"excludeTests": []
+		}
+	}
+}
